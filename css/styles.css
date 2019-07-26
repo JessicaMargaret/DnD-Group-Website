@@ -114,7 +114,6 @@ header li{
 
 	.map-section img{
 		width: 700px;
-		height: 700px;
 	}
 	
 
@@ -183,6 +182,10 @@ footer a:hover{
 	.mainheadertext{
 		font-family: 'Homemade Apple', cursive;
 		font-size: 60px;
+	}
+
+	.game-summary p{
+		text-indent: 25px;
 	}
 
 	/*Missions*/
@@ -300,6 +303,7 @@ footer a{
 
 	.game-summary p{
 		padding-left: 25px;
+		padding-bottom: 12px;
 	}
 
 	/*Missions*/
@@ -322,5 +326,9 @@ footer a{
 
 	.map-section{
 		margin-left: 60px;
-		padding-bottom: 25px;
+		padding-bottom: 20px;
+	}
+
+	.map-section h3{
+		margin-bottom: 20px;
 	}
