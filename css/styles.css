@@ -1,0 +1,326 @@
+
+
+
+/*
+
+ __                                    _    
+[  |                                  / |_  
+ | |  ,--.    _   __   .--.   __   _ `| |-' 
+ | | `'_\ :  [ \ [  ]/ .'`\ \[  | | | | |   
+ | | // | |,  \ '/ / | \__. | | \_/ |,| |,  
+[___]\'-;__/[\_:  /   '.__.'  '.__.'_/\__/  
+             \__.'                          
+
+Layout
+*/
+
+/*Includes css boxes, colours, floats, etc*/
+
+body {
+	background-color: #252241;
+}
+
+.container {
+	margin: 0 auto;
+	width: 960px;
+	font-size: 100%;
+	line-height: 1.5;
+	background-color: #3b3a50;
+}
+
+
+header ul{
+	float: right;
+}
+
+header li{
+	float: right;
+
+	text-align: center;
+
+	width: 158px;
+	background-color: #5a595e;
+}
+
+.display-box{
+	background-color: #5a595e;
+	width: 890px;
+}
+
+
+	/*Smaller page headers*/
+
+	.secondheader{
+		background-image: url(../img/secondheaderimage.png);
+	
+		background-repeat: repeat-x;
+		background-position: 0px 0px; /*x,y*/
+	
+		height: 216px;
+		width: 960px;
+	}
+
+	.breadcrumb{
+		width: 950px;
+		background-color: #403f4f;
+		text-align: left;
+	}
+
+	/*Main Page*/
+
+	.mainheader{
+		background-image: url(../img/headerimage.png);
+	
+		background-repeat: repeat-x;
+		background-position: 0px 0px; /*x,y*/
+	
+		height: 544px;
+		width: 960px;
+	}
+
+	.next-game-time{
+		float: right;
+	}
+
+	.story-line{
+		width: 835px;
+		height: 4px;
+
+		background-color: #b6b4bb;
+	}
+
+	.game-summary{
+		width: 835px;
+	}
+
+
+	/*Missions*/
+
+	.missions-summary h3{
+		font-size: 34px;
+	}
+	
+	/*Maps*/
+
+	.maps-title-text{
+		margin-left: 20px;
+		padding-top: 20px;
+	}
+
+	.map-section{
+		width: 835px;
+		align-content: center;
+	}
+
+	.map-section img{
+		width: 700px;
+		height: 700px;
+	}
+	
+
+/*
+    ___                  _          
+  .' ..]                / |_        
+ _| |_   .--.   _ .--. `| |-'.--.   
+'-| |-'/ .'`\ \[ `.-. | | | ( (`\]  
+  | |  | \__. | | | | | | |, `'.'.  
+ [___]  '.__.' [___||__]\__/[\__) ) 
+                                    
+Fonts
+*/
+
+/*Includes font choices, sizes, and colours*/
+
+body{
+	font-family: 'Bell MT';
+	color: #d9d7df;
+}
+
+header a{
+	font-style: bold;
+	text-decoration: none;
+	color: #d9d7df;
+}
+
+header a:hover{
+	color: #37354b;
+}
+
+h1{
+	font-family: 'Homemade Apple', cursive;
+	font-size: 60px;
+}
+
+h2{
+	font-family: 'Homemade Apple', cursive;
+	font-size: 71px;
+}
+
+h3{
+	font-size: 35px;		
+}
+
+footer a{
+	color: #d9d7df;
+}
+
+footer a:hover{
+	color: #000116;
+}
+
+	/*Smaller page headers*/
+
+	.secondheader h1{
+		font-size: 50px;
+	}
+
+	/*Main Page*/
+
+	.next-game li{
+		font-size: 34px;
+	}
+
+	.mainheadertext{
+		font-family: 'Homemade Apple', cursive;
+		font-size: 60px;
+	}
+
+	/*Missions*/
+
+	.missions-title{
+		font-size: 55px;
+	}
+
+	.missions-summary h3{
+		font-size: 34px;
+	}
+
+	.characters-involved{
+		color: #252241;
+		font-size: 22px; 		
+	}
+
+	.location a{
+		color: #02021f;
+		text-decoration: none;
+	}
+
+	.location a:hover{
+		color: #6b013b;
+	}
+
+	/*Maps*/
+
+	.maps-title-text{
+		font-size: 55px;
+	}
+		
+
+/*
+                                     _                   
+                                    (_)                  
+ _ .--..--.   ,--.   _ .--.  .--./) __   _ .--.   .--.   
+[ `.-. .-. | `'_\ : [ `/'`\]/ /'`\;[  | [ `.-. | ( (`\]  
+ | | | | | | // | |, | |    \ \._// | |  | | | |  `'.'.  
+[___||__||__]\'-;__/[___]   .',__` [___][___||__][\__) ) 
+                           ( ( __))                      
+
+Margins
+*/
+
+/*Preference is given to top and left margin and padding where ideal*/
+
+
+.display-box{
+	margin-top: 40px; 
+	margin-left: 30px;
+}
+
+header li{
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+footer a{
+	padding-left: 450px;
+}
+
+	/*Smaller page headers*/
+
+	.secondheader h1{
+		margin-left: 15px;
+		padding-top: 80px;
+	}
+
+	.breadcrumb{
+		margin-top: -15px;
+		margin-right: 0px;
+
+		padding-left: 10px;
+	}
+
+	.missions-title{
+		margin-left: 20px;
+		padding-top: 20px;
+	}
+
+	/*Main Page*/
+
+	.mainheadertext{
+		margin-top: 400px;
+		margin-left: 10px;
+	}
+
+	.next-game{
+		padding-top: 100px;
+		padding-left: 20px;
+	}
+
+	.next-game-time{
+		margin-top: -170px;
+		margin-right: 60px;
+	}
+
+	.story-so-far{
+		padding-top: 25px;
+		padding-left: 375px; 
+	}
+
+	.story-line{
+		margin-left: 25px;
+		margin-top: -20px;
+
+		margin-bottom: 25px;
+	}
+
+	.game-summary{
+		margin-left: 25px;
+		padding-bottom: 25px;
+	}
+
+	.game-summary p{
+		padding-left: 25px;
+	}
+
+	/*Missions*/
+
+	.missions-summary{
+		margin-left: 60px;
+		padding-bottom: 25px;
+	}
+
+	.missions-summary p{
+		margin-left: 30px;
+	}
+	
+	/*Maps*/
+
+	.maps-title-text{
+		margin-left: 20px;
+		padding-top: 20px;
+	}
+
+	.map-section{
+		margin-left: 60px;
+		padding-bottom: 25px;
+	}
