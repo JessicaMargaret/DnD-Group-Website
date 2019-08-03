@@ -28,7 +28,6 @@ body {
 	background-color: #3b3a50;
 }
 
-
 header ul{
 	float: right;
 }
@@ -45,6 +44,10 @@ header li{
 .display-box{
 	background-color: #5a595e;
 	width: 890px;
+}
+
+footer{
+	text-align: center;
 }
 
 
@@ -92,7 +95,6 @@ header li{
 	.game-summary{
 		width: 835px;
 	}
-
 
 	/*Missions*/
 
@@ -145,6 +147,10 @@ header a:hover{
 	color: #37354b;
 }
 
+.mainheadertext a:hover{
+	color: #d9d7df;
+}
+
 h1{
 	font-family: 'Homemade Apple', cursive;
 	font-size: 60px;
@@ -159,11 +165,12 @@ h3{
 	font-size: 35px;		
 }
 
-footer a{
+footer p a{
 	color: #d9d7df;
+	text-decoration: none;
 }
 
-footer a:hover{
+footer p a:hover{
 	color: #000116;
 }
 
@@ -171,6 +178,10 @@ footer a:hover{
 
 	.secondheader h1{
 		font-size: 50px;
+	}
+
+	.secondheader h1 a:hover{
+		color: #d9d7df
 	}
 
 	/*Main Page*/
@@ -242,10 +253,6 @@ Margins
 header li{
 	margin-top: 20px;
 	margin-right: 20px;
-}
-
-footer a{
-	padding-left: 450px;
 }
 
 	/*Smaller page headers*/
